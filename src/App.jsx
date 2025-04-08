@@ -38,7 +38,7 @@ function App() {
     <>
       <Navbar totalItems={totalItems}></Navbar>
       <Hero></Hero>
-      <div className="main-container md:flex md:pt-30  md:pb-10 bg-[#EBF0F5] mb-5">
+      <div className="main-container md:flex md:pt-30  md:pb-10 bg-[#EBF0F5] pd-5">
         <div className="md:w-[70%] md:ml-15 bg-white p-5 rounded-4xl">
           <DataPart
             handleBidItemDetails={handleBidItemDetails}
