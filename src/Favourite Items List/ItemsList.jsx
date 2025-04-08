@@ -7,8 +7,8 @@ const ItemsList = ({ item, handleRemoveBidItems }) => {
         <img src={item.image} alt="Avatar Tailwind CSS Component" />
       </div>
       <div className=" text-left">
-        <p className="text-[20px]">{item.title}</p>
-        <p className="text-[20px] mt-5">${item.currentBidPrice}</p>
+        <p className="md:text-[20px]">{item.title}</p>
+        <p className="md:text-[20px] mt-5">${item.currentBidPrice}</p>
       </div>
       <div>
         <button
