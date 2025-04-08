@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaRegHeart } from "react-icons/fa";
-const DataPart = ({ handleBidAmount, liked }) => {
+const DataPart = ({ handleBidAmount, liked}) => {
   const [table, setTableData] = useState([]);
-  // console.log(table)
   useEffect(() => {
     fetch(
       "https://raw.githubusercontent.com/sajjadjim/JSON-Data-Folder/refs/heads/main/items-list"
@@ -14,7 +13,6 @@ const DataPart = ({ handleBidAmount, liked }) => {
   return (
     <div>
       {/* <h1>Length {table.length}</h1> */}
-
       <div className="overflow-x-auto">
         <table className="table">
           {/* head */}

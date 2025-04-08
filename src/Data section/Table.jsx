@@ -4,7 +4,7 @@ const Table = ({table}) => {
     <div>
       {
         <div>
-          {/* row 1 */}
+          {/* row  */}
           <tr className="md:flex md:justify-center md:gap-50">
             <td className="text-left">
               <div className="flex items-center gap-3">
