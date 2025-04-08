@@ -4,6 +4,7 @@ import Hero from "./Hero/Hero";
 import Navbar from "./Navbar/Navbar";
 import { useState } from "react";
 import ItemsList from "./Favourite Items List/ItemsList";
+import Footer from "./Footer/Footer";
 function App() {
   const [bidItems, setBidItems] = useState([]);
   const [liked, setLiked] = useState([]);
@@ -26,18 +27,16 @@ function App() {
     const newBidAmount = bidAmount + currentBidPrice;
     setBidAmount(newBidAmount);
     handleBidItemDetails(item);
-    totalNumberOfItems(item)
+    totalNumberOfItems(item);
   };
 
-  const [totalItems , setTotalItems] = useState([])
-  const totalNumberOfItems = (totalItem) =>{
-setTotalItems([...totalItems ,totalItem])
-  }
+  const [totalItems, setTotalItems] = useState([]);
+  const totalNumberOfItems = (totalItem) => {
+    setTotalItems([...totalItems, totalItem]);
+  };
   return (
     <>
-      <Navbar
-      totalItems={totalItems}
-      ></Navbar>
+      <Navbar totalItems={totalItems}></Navbar>
       <Hero></Hero>
       <div className="main-container md:flex md:pt-30  md:pb-10 bg-[#EBF0F5]">
         <div className="md:w-[70%] md:ml-15 bg-white p-5 rounded-4xl">
@@ -47,7 +46,7 @@ setTotalItems([...totalItems ,totalItem])
             liked={liked}
           ></DataPart>
         </div>
-        <div className="md:w-[30%]">
+        <div className="md:w-[30%] md:mb-0 mb-5">
           {
             <div className="text-center m-5 bg-white rounded-xl">
               <h1 className="border-b-[1px] border-[#DCE5F3] pt-10 text-[25px]">
@@ -79,6 +78,7 @@ setTotalItems([...totalItems ,totalItem])
           }
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 }

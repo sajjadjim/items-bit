@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaRegHeart } from "react-icons/fa";
-const DataPart = ({ handleBidAmount, liked}) => {
+const DataPart = ({ handleBidAmount, liked }) => {
   const [table, setTableData] = useState([]);
   useEffect(() => {
     fetch(
@@ -29,7 +29,10 @@ const DataPart = ({ handleBidAmount, liked}) => {
             {table.map((table) => (
               <tr key={table.id}>
                 <td>
-                  <img className="w-15 h-15 rounded-xl" src={table.image}></img>
+                  <img
+                    className="md:w-15  md:h-15 rounded-xl"
+                    src={table.image}
+                  ></img>
                 </td>
                 <td>{table.title}</td>
                 <td>${table.currentBidPrice}</td>
@@ -46,8 +49,8 @@ const DataPart = ({ handleBidAmount, liked}) => {
                         : "cursor-pointer"
                     }`}
                   >
-                    <FaRegHeart 
-                      color={liked.includes(table.id) ? "red" : "green"}                     
+                    <FaRegHeart
+                      color={liked.includes(table.id) ? "red" : "green"}
                     />
                   </button>
                 </td>
