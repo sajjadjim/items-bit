@@ -20,6 +20,8 @@ function App() {
   const handleRemoveBidItems = (id) => {
     const newBidItems = bidItems.filter((item) => item.id !== id);
     setBidItems(newBidItems);
+    const newBidAfterLiked =liked.filter(item=> item !== id)
+    setLiked(newBidAfterLiked)
   };
 
   const [bidAmount, setBidAmount] = useState(0);
