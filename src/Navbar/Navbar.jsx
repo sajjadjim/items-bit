@@ -1,7 +1,5 @@
 import React from "react";
-
 const Navbar = ({totalItems}) => {
-  console.log(totalItems)
   return (
     <div>
       <div className="navbar bg-base-100 shadow-sm">
