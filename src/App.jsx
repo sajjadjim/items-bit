@@ -124,7 +124,7 @@ function App() {
               {
                 <div className="text-center m-5 bg-white rounded-xl">
                   <h1 className="border-b-[1px] border-[#DCE5F3] pt-10 text-[25px]">
-                    Favorite Items
+                    ❤️Favorite Items
                   </h1>
 
                   {bidItems.length === 0 ? (
