@@ -122,7 +122,7 @@ function App() {
                   `}
               </style>
               {
-                <div className="text-center m-5 bg-white rounded-xl text-black">
+                <div className="text-center m-5 bg-white rounded-xl ">
                   <h1 className="border-b-[1px] border-[#DCE5F3] pt-10 text-[25px]">
                     ❤️Favorite Items
                   </h1>
