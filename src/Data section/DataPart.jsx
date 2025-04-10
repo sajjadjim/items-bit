@@ -13,7 +13,7 @@ const DataPart = ({ handleBidAmount, liked }) => {
   return (
     <div>
       {/* <h1>Length {table.length}</h1> */}
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto text-black">
         <table className="table">
           {/* head */}
           <thead>
