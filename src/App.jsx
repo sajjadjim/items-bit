@@ -10,7 +10,6 @@ function App() {
   const [bidItems, setBidItems] = useState([]);
   const [liked, setLiked] = useState([]);
   const [bidAmount, setBidAmount] = useState(0);
-  const [totalItems, setTotalItems] = useState([]);
   const [toastMessage, setToastMessage] = useState("");
   const [toastKey, setToastKey] = useState(0);
   const messageTimeout = useRef(null);
@@ -28,6 +27,8 @@ function App() {
     setBidItems(newBidItems);
     const newBidAfterLiked = liked.filter((item) => item !== id);
     setLiked(newBidAfterLiked);
+    const newBidAmount = bidAmount - bidItems.find((item) => item.id === id).currentBidPrice;
+    setBidAmount(newBidAmount);
     showToast("Item removed from the bid !!!");
   };
 
@@ -35,11 +36,6 @@ function App() {
     const newBidAmount = bidAmount + currentBidPrice;
     setBidAmount(newBidAmount);
     handleBidItemDetails(item);
-    totalNumberOfItems(item);
-  };
-
-  const totalNumberOfItems = (totalItem) => {
-    setTotalItems([...totalItems, totalItem]);
   };
 
   const showToast = (message) => {
@@ -52,7 +48,7 @@ function App() {
   };
   return (
     <>
-      <Navbar totalItems={totalItems}></Navbar>
+      <Navbar liked={liked}></Navbar>
       <Hero></Hero>
       <div className="main-container  md:pt-30  md:pb-10 pb-5 pt-5 bg-[#EBF0F5]">
         <div className="grid gap-2 md:ml-15 mb-3 md:justify-start justify-center md:text-left text-center">
@@ -122,7 +118,7 @@ function App() {
                   `}
               </style>
               {
-                <div className="text-center m-5 bg-white rounded-xl ">
+                <div className="text-center m-5 bg-white rounded-xl">
                   <h1 className="border-b-[1px] border-[#DCE5F3] pt-10 text-[25px]">
                     ❤️Favorite Items
                   </h1>
