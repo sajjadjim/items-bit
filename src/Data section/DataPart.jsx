@@ -13,7 +13,7 @@ const DataPart = ({ handleBidAmount, liked }) => {
   return (
     <div>
       {/* <h1>Length {table.length}</h1> */}
-      <div className="overflow-x-auto text-black">
+      <div className="overflow-x-auto ">
         <table className="table">
           {/* head */}
           <thead>
@@ -27,7 +27,7 @@ const DataPart = ({ handleBidAmount, liked }) => {
           </thead>
           <tbody>
             {table.map((table) => (
-              <tr className="text-black" key={table.id}>
+              <tr className="" key={table.id}>
                 <td>
                   <img
                     className="md:w-15  md:h-15 rounded-xl"
