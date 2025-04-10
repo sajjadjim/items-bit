@@ -27,7 +27,7 @@ const DataPart = ({ handleBidAmount, liked }) => {
           </thead>
           <tbody>
             {table.map((table) => (
-              <tr key={table.id}>
+              <tr className="text-black" key={table.id}>
                 <td>
                   <img
                     className="md:w-15  md:h-15 rounded-xl"
