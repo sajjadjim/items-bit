@@ -30,7 +30,7 @@ const DataPart = ({ handleBidAmount, liked }) => {
               <tr key={table.id}>
                 <td>
                   <img
-                    className="md:w-15  md:h-15 rounded-xl"
+                    className="md:w-auto  md:h-15 rounded-xl"
                     src={table.image}
                   ></img>
                 </td>
