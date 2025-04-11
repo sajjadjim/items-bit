@@ -6,7 +6,7 @@ const Hero = () => {
             <div
   className="hero min-h-screen"
   style={{
-    backgroundImage: "url('/Banner-min.jpg')",
+    backgroundImage: "url(https://github.com/sajjadjim/JSON-Data-Folder/blob/main/Banner-min.jpg?raw=true)",
   }}>
   <div className="hero-overlay"></div>
 <div className='relative md:mr-300'>
