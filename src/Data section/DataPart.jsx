@@ -4,7 +4,7 @@ const DataPart = ({ handleBidAmount, liked }) => {
   const [table, setTableData] = useState([]);
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/sajjadjim/JSON-Data-Folder/refs/heads/main/items-list"
+      ""
     )
       .then((res) => res.json())
       .then((data) => setTableData(data));
