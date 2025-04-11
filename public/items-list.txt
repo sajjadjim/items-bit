@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "title": "Rolex Watch",
+    "description": "A classic 1960s wristwatch in excellent condition.",
+    "currentBidPrice": 1500,
+    "timeLeft": "2h 30m",
+    "bidsCount": 12,
+    "image": "https://www.diamondcellar.com/cdn/shop/files/m126603-0001_drp-upright-bba-with-shadow_533x.png?v=1720715433"
+  },
+  {
+    "id": 2,
+    "title": "Antique Vase",
+    "description": "A rare Ming Dynasty vase with intricate designs.",
+    "currentBidPrice": 1200,
+    "timeLeft": "1d 5h",
+    "bidsCount": 8,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUMUL83iWF2h82LhrY9tiaMtOU12FWJl3S4g15vZnd-GpXAkf9-0YI8ULXYsX5JuXU81g&usqp=CAU"
+  },
+  {
+    "id": 3,
+    "title": "Gaming Laptop",
+    "description": "High-performance gaming laptop with RTX graphics.",
+    "currentBidPrice": 950,
+    "timeLeft": "3h 45m",
+    "bidsCount": 25,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsmQHmmXbmbrV1o5cKcS3Bqp05T3BuEws-8g&s"
+  },
+  {
+    "id": 4,
+    "title": "Lamborghini",
+    "description": "YOU CAN'T HIDE WHO YOU ARE · EXPLOREHURACÁN STERRATO. Model Info. Open 3D view · EXPLOREHURACÁN TECNICA",
+    "currentBidPrice": 52500,
+    "timeLeft": "5h 10m",
+    "bidsCount": 147,
+    "image": "https://imgd-ct.aeplcdn.com/370x231/n/cw/ec/164593/revuelto-right-front-three-quarter-2.jpeg?isig=0&q=80"
+  },
+  {
+    "id": 5,
+    "title": "Galaxy S25 Ultra",
+    "description": "526 GB STorage 16 GB Ram samsung.",
+    "currentBidPrice": 700,
+    "timeLeft": "7h 20m",
+    "bidsCount": 18,
+    "image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-S25-Ultra-5G-Titanium-Jetblack-5600.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Electric Guitar",
+    "description": "Classic Fender electric guitar, great for rock.",
+    "currentBidPrice": 450,
+    "timeLeft": "2d 12h 00m",
+    "bidsCount": 9,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf8iLYbgS6D46FkpR-lI7JRsSWvlmGGzFnvw&s"
+  },
+  {
+    "id": 7,
+    "title": "Drone Camera",
+    "description": "4K camera drone with stabilization features.",
+    "currentBidPrice": 520,
+    "timeLeft": "4h 50m",
+    "bidsCount": 11,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQDL3IvVS1d9Z1pi9uDiD8FUsYCPLZ69OoiA&s"
+  },
+  {
+    "id": 8,
+    "title": "Mac Mini M4",
+    "description": "256 GB storage M4 leastest Chip.",
+    "currentBidPrice": 599,
+    "timeLeft": "2d 3h",
+    "bidsCount": 17,
+    "image": "https://www.ryans.com/storage/products/main/apple-mac-mini-apple-m4-chip-16gb-256gb-ssd-11730555058.webp"
+  },
+  {
+    "id": 9,
+    "title": "Art Painting",
+    "description": "Modern abstract painting by a local artist.",
+    "currentBidPrice": 350,
+    "timeLeft": "6h 15m",
+    "bidsCount": 10,
+    "image": "https://images-cdn.ubuy.co.in/634f1f075e503a0a5b5236b3-canvas-wall-art-painting-vintage-24x36.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Bluetooth Headphones",
+    "description": "Noise-cancelling wireless headphones.",
+    "currentBidPrice": 110,
+    "timeLeft": "1h 40m",
+    "bidsCount": 22,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeQC6aQ_uX8YUwnpp267tybes2yxTIEp22bg&s"
+  },
+  {
+    "id": 11,
+    "title": "Classic Books Set",
+    "description": "Collection of 20 classic novels in hardcover.",
+    "currentBidPrice": 90,
+    "timeLeft": "3d 1h",
+    "bidsCount": 5,
+    "image": "https://i0.wp.com/images-na.ssl-images-amazon.com/images/I/818GXTCx4nL.jpg?resize=459%2C420&ssl=1"
+  },
+  {
+    "id": 12,
+    "title": "Apple watch 6",
+    "description": "Water-resistant smartwatch with health tracking.",
+    "currentBidPrice": 200,
+    "timeLeft": "3d 6h 35m",
+    "bidsCount": 15,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy1zdBWUoO5NmoeXuqvJaOgnYbKt4rsCZGaw&s"
+  },
+  {
+    "id": 13,
+    "title": "Samsung Galaxy Buds FE",
+    "description": "Samsung galaxy buds new launch",
+    "currentBidPrice": 559,
+    "timeLeft": "4h 50m",
+    "bidsCount": 13,
+    "image": "https://dazzle.sgp1.cdn.digitaloceanspaces.com/15394/1000004422.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Camping Tent",
+    "description": "4-person waterproof camping tent, easy setup.",
+    "currentBidPrice": 75,
+    "timeLeft": "2d 12h",
+    "bidsCount": 6,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREHUFKqYLGD75cpgFkii3AjvjBZ7AiM6UwTw&s"
+  },
+  {
+    "id": 15,
+    "title": "Designer Handbag",
+    "description": "Luxury leather handbag, barely used.",
+    "currentBidPrice": 480,
+    "timeLeft": "1d 6h",
+    "bidsCount": 17,
+    "image": "https://image.made-in-china.com/365f3j00ySHIvRslLKBU/Kaidifeiniroo-K015-Wholesale-Designer-Bags-Women-Famous-Brands-Luxury-Designer-Fashion-Lady-Handbag-for-Women.webp"
+  },
+  {
+    "id": 16,
+    "title": "Home Theater System",
+    "description": "5.1 surround sound with wireless subwoofer.",
+    "currentBidPrice": 600,
+    "timeLeft": "8h 20m",
+    "bidsCount": 10,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsgN1_IKEbZG_mIRJyXie32oNDON6YBPGobQ&s"
+  },
+  {
+    "id": 17,
+    "title": "Thunderobot K98",
+    "description": "Mechanical Keyboard",
+    "currentBidPrice": 240,
+    "timeLeft": "9h 15m",
+    "bidsCount": 9,
+    "image": "https://vibegaming.com.bd/wp-content/uploads/2023/06/bloody23.webp"
+  },
+  {
+    "id": 18,
+    "title": "Google Pixel 9 Pro XL",
+    "description": "1 TB storage and 16 GB Ram",
+    "currentBidPrice": 1199,
+    "timeLeft": "7h 40m",
+    "bidsCount": 20,
+    "image": "https://i0.wp.com/kryinternational.com/wp-content/uploads/2024/09/Google-Pixel-9-Pro-XL-Price-in-Bangladesh.jpg?fit=565%2C565&ssl=1"
+  },
+  {
+    "id": 19,
+    "title": "Photography Kit",
+    "description": "DSLR camera with tripod and two lenses.",
+    "currentBidPrice": 980,
+    "timeLeft": "1d 3h 55m",
+    "bidsCount": 22,
+    "image": "https://m.media-amazon.com/images/I/71AAbZzfX8L._AC_SL1500_.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Luxury Perfume Set",
+    "description": "Collection of 5 designer fragrances.",
+    "currentBidPrice": 160,
+    "timeLeft": "5h 10m",
+    "bidsCount": 11,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqsS6Y8hCld6BUR66e1oVV4PSRzdFsYZqOQA&s"
+  },
+  {
+    "id": 21,
+    "title": "Iphone 16 Pro Max",
+    "description": "256GB Storage 8GB Ram 64MP camera.",
+    "currentBidPrice": 1300,
+    "timeLeft": "5h 10m",
+    "bidsCount": 112,
+    "image": "https://www.imagineonline.store/cdn/shop/files/iPhone_16_Pro_Max_Desert_Titanium_PDP_Image_Position_1b__en-IN_bfbeb796-1c49-4692-a68f-aaeaa75b8de9.jpg?v=1727250896&width=823"
+  }
+]
